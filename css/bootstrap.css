@@ -2480,8 +2480,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 
 .btn:focus, .btn.focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  outline: 0;/*
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);*/
 }
 
 .btn.disabled, .btn:disabled {
@@ -2513,8 +2513,8 @@ fieldset:disabled a.btn {
   border-color: #DE831B;
 }
 
-.btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+.btn-primary:focus, .btn-primary.focus {/*
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);*/
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2525,9 +2525,9 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #fff;
+  color: #fff;/*
   background-color: #0062cc;
-  border-color: #005cbf;
+  border-color: #005cbf;*/
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -4930,15 +4930,15 @@ tbody.collapse.show {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding: 0;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #fff;
   border-radius: 0.3rem;
 }
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 4rem 2rem;
+    padding: 1rem 2rem;
   }
 }
 
