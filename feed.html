@@ -20,6 +20,14 @@
     <title>Studio KOS</title>
   </head>
   <body>
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
       <nav>
       <div class="logo"><a href="index.html" ><img src="img/logo.svg" alt="studio KOS" class="logoimg"/></a></div>
@@ -53,31 +61,38 @@
     <a class="nav-link" href="#">O mnie</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="kontakt.html">Kontakt</a>
+    <a class="nav-link" href="kontakt.html">Kontakt</a>
   </li>
 </ul>
           </div>
       </nav>
       <div class="container main">
-           <section>
-               <div class="kontakt">
-               <h1>Kontakt</h1>
-                   <h5>Masz pytanie lub propozycję współpracy? </h5>
-                   <h4>Napisz do nas wiadomość na <a href="mailto:kontakt@studiokos.pl"><strong>kontakt@studiokos.pl</strong></a> lub w poniższym formularzu </h4>
-                   
-                   <form>
-                         <div class="form-row rowphone">
-                             <div class="col">
-                        <input type="text" class="form-control inputname" placeholder="Imię">
-                            </div>
-                            <div class="col">
-                        <input type="email" class="form-control inputmail" placeholder="Adres e-mail">
-                            </div>
-                        </div>
-                    <textarea class="form-control inputtext" id="wiadomosc" rows="5" placeholder="Wiadomość"></textarea>
-                   <button type="submit" class="btn btn-primary">Wyślij</button>
-                   </form>
-               </div>
+           <section class="feed">
+     <div class="post">
+               <div class="jumbotron bigpadding" style="background-image: url(img/articles/pinterest/head.jpg); ">
+                   <div class="feedshadow">
+                  <h1 class="display-4">Pinterest</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="articles/promowanie-biznesu-na-pinterest.html" role="button">Czytaj dalej</a>
+  </p>
+</div>
+         </div></div>
+               
+               <div class="post">
+               <div class="jumbotron bigpadding" style="background-image: url(img/articles/code/head.jpg); ">
+                   <div class="feedshadow">
+                  <h1 class="display-4">Jak zacząć naukę programowania stron?</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="articles/jak-nauczyc-sie-programowac.html" role="button">Czytaj dalej</a>
+  </p>
+</div>
+         </div></div>
       </section>
       <div class="sidebar">
           <h4 class="titlebar">Najpopularniejsze wpisy</h4>
@@ -90,6 +105,7 @@
   <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
   <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
 </div>
+          <div class="fb-page" data-href="https://www.facebook.com/studiokospl" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/studiokospl" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/studiokospl">Studio KOS</a></blockquote></div>
     </div>
       </div>
       <footer>
